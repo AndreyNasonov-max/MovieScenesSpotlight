@@ -1,0 +1,14 @@
+.contact-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5em;
+    color: #ffb800;
+  }
+  
+  .contact-content {
+    font-size: 1.2em;
+    color: #ebf302;
+  }
