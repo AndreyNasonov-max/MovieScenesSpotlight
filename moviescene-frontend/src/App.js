@@ -10,26 +10,16 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <nav className="navbar navbar-expand-lg navbar-light">
-            <div className="navbar-collapse collapse">
-              <ul className="navbar-nav mx-auto">
-                <li className="nav-item d-flex align-items-center">
-                  <Link className="nav-link d-flex align-items-center" to="/">
-                    <img src="/LogoMoviesBlackSmall2.png" alt="MovieSceneSpotlight Logo" height="50" className="me-2" />
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">About</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
+    <div class="bg-black text-yellow-500 p-4 flex justify-between items-center">
+    <Link className="nav-link d-flex align-items-center" to="/">
+    <img src="/LogoMoviesBlackSmall2.png" alt="MovieSceneSpotlight Logo" height="50" className="me-2 w-64" />
+   </Link>
+  <div class="space-x-4">
+    <a href="#" class="hover:text-yellow-300">Home</a>
+    <a href="#" class="hover:text-yellow-300">About</a>
+    <a href="#" class="hover:text-yellow-300">Contact</a>
+  </div>
+</div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

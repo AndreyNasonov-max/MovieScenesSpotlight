@@ -1,14 +1,60 @@
-.contact-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contact-title {
-    font-size: 2.5em;
-    color: #ffb800;
-  }
-  
-  .contact-content {
-    font-size: 1.2em;
-    color: #ebf302;
-  }
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-header {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.home-header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.home-content {
+  margin-top: 40px;
+}
+
+.home-content h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+
+
+.home-scenes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+.scene-image {
+  width: 30%;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.home-footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+

@@ -1,5 +1,9 @@
 /* App.css */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App-header {
   background-color: black;
   min-height: 10vh;
