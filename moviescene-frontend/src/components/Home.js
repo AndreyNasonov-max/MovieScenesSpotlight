@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import '../componentcss/Home.css'; // Adjust the import path according to your structure
 
 function Home() {
